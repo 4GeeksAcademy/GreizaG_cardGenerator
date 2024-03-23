@@ -11,3 +11,10 @@
 body {
   background-color: green;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
