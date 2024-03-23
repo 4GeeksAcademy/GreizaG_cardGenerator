@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#suitDown {
+  transform: rotate(180deg);
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+}
+
+body {
+  background-color: green;
+}
