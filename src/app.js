@@ -25,4 +25,9 @@ window.onload = function() {
   document.querySelector("#suitUp").innerHTML = suit;
   document.querySelector("#suitDown").innerHTML = suit;
   document.querySelector("#cardNum").innerHTML = cardNum;
+
+  if (suit == "♦" || suit == "♥") {
+    document.querySelector("#suitUp").classList.add("suit");
+    document.querySelector("#suitDown").classList.add("suit");
+  }
 };
